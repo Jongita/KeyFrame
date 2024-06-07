@@ -80,7 +80,6 @@ animation: color 1s linear alternate infinite;
     justify-content: center;
     align-items: center;
 
-
 }
 
 .Penguin {
@@ -116,7 +115,7 @@ animation: color 1s linear alternate infinite;
     display: flex;
     background-repeat: no-repeat;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     overflow: hidden;
 }
 
@@ -142,23 +141,23 @@ animation: color 1s linear alternate infinite;
 
 .heart {
     width: 300px;
-    animation: heart 1s infinite linear;
+    animation: heart 2s infinite linear;
 }
 
 @keyframes heart {
     0% {
-        transform: scale(1);
+        transform: scale(0);
     }
     25% {
-        transform: scale(1.5);
+        transform: scale(1);
     }
     50%{
-        transform: scale(2);
+        transform: scale(1.5);
     }
     75% {
-        transform: scale(2.5);
+        transform: scale(2);
     }
     100% {
-        transform: scale(3);
+        transform: scale(2.5);
     }
 }
